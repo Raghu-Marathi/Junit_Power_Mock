@@ -17,7 +17,6 @@ public class UserService {
 	}
 	
 	public String login(String email,String pwd) {
-                int a=10;
 		Boolean status = userDao.findByEmailAndPwd(email, pwd);
 		if(status) {
 			return "Success";

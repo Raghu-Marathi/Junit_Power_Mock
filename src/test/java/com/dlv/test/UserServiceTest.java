@@ -22,8 +22,6 @@ public class UserServiceTest {
 		// injecting mock obj into service obj
 		UserService service = new UserService(userDaomock);
 		
-                 int x=200;                
-
 		String name = service.getName(101);
 		
 		String expectedName="Raju";
