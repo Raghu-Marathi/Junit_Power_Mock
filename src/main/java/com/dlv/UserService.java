@@ -18,7 +18,11 @@ public class UserService {
 	
 	public String login(String email,String pwd) {
 		Boolean status = userDao.findByEmailAndPwd(email, pwd);
+
                 int a=10;
+
+		String s="hii";
+
 		if(status) {
 			return "Success";
 		}else {
