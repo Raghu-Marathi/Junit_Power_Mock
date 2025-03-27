@@ -20,6 +20,7 @@ public class UserService {
 		Boolean status = userDao.findByEmailAndPwd(email, pwd);
 
                 int a=10;
+                int b=20;
 
 		String s="hii";
 
